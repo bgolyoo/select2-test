@@ -7,53 +7,47 @@
     <title>yeoman</title>
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
 
-    <!-- build:css styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
-
-    <!-- build:css styles/main.css -->
+    <!--<link rel="stylesheet" href="styles/select2-bootstrap.css">-->
+    <!--<link rel="stylesheet" href="styles/select2.min.css">-->
+    <link rel="stylesheet" href="/bower_components/select2/dist/css/select2.css">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-    
-    <!-- build:js scripts/vendor/modernizr.js -->
+
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/bower_components/select2/dist/js/select2.js"></script>
+
+
   </head>
   <body>
-    <!--[if lt IE 10]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    
-    <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Modernizr</li>
-        <li>jQuery</li>
-      </ul>
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4" style="padding: 10px">
+        <article class="input-container gender">
+          <label>Gender</label>
+          <select class="js-select-search">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+        </article>
+      </div>
     </div>
-    
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
 
-    <!-- build:js scripts/vendor.js -->
-    <!-- bower:js -->
-    <!-- endbower -->
-    <!-- endbuild -->
-    
-    <!-- build:js scripts/main.js -->
+    <!--<div class="hero-unit">-->
+      <!--<h1>'Allo, 'Allo!</h1>-->
+      <!--<p>You now have</p>-->
+      <!--<ul>-->
+        <!--<li>HTML5 Boilerplate</li>-->
+        <!--<li>Modernizr</li>-->
+        <!--<li>jQuery</li>-->
+      <!--</ul>-->
+
+
+    <!--</div>-->
+
+
     <script src="scripts/main.js"></script>
-    <!-- endbuild -->
+
   </body>
 </html>
